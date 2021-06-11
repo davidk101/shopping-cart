@@ -1,5 +1,5 @@
-import React from 'react';
-import ReactDOM from 'react-dom';
+import React from 'react'; // babel(transcompiler) takes jsx and converts to js that browsers can compile using React.createElement
+import ReactDOM from 'react-dom' // react updates real DOM based on changes to virtual DOM using ReactDOM.render
 import './index.css';
 import App from './App';
 import reportWebVitals from './reportWebVitals';
